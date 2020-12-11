@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
 
+:root {
+    --primary-color: #3B82F6;
+}
+
+html { 
+    background: url(images/img-two.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 body{
     font-family: 'Ranchers', cursive;
     margin: 0px;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.596)), url(images/abc-PAF_VOLUME_005-Full-Image_GalleryCover-en-US-1492101416895._UY500_UX667_RI_VdFuXr2Ht8MujxvIcyueV2PIsnCGB2IB_TTW_.jpeg);
+    background-size: contain; */
 }
 
 nav {
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
-    background-color: #F59E0B;
+    background-color: var(--primary-color);
 }
 
 .container {
@@ -45,7 +59,7 @@ textarea {
 }
 
 #btn-translate {
-    background-color: #F59E0B;
+    background-color: var(--primary-color);
     font-family: 'Ranchers', cursive;
     font-weight: bold;
     font-size: large;
@@ -71,7 +85,7 @@ textarea {
 footer {
     position: fixed;
     width: 100%;
-    background-color: #F59E0B;
+    background-color: var(--primary-color);
     bottom: 0;
     text-align: center;
 }
