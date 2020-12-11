@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+body{
+    font-family: 'Ranchers', cursive;
+    margin: 0px;
+}
+
+nav {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #F59E0B;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-right: 1rem;
+    padding-left: 5rem;
+}
+
+textarea {
+    width: 80%;
+    height: 17vh;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Ranchers', cursive;
+    font-size: 18px;
+}
+
+:-ms-input-placeholder {
+    font-family: 'Ranchers', cursive;
+    font-size: 18px;
+}
+
+::placeholder {
+    font-family: 'Ranchers', cursive;
+    font-size: 18px;
+}
+
+#btn-translate {
+    background-color: #F59E0B;
+    font-family: 'Ranchers', cursive;
+    font-weight: bold;
+    font-size: large;
+    border: 0px;
+    height: 50px;
+    width: 200px;
+}
+
+
+#output-para {
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+#output {
+    width: 80%;
+    height: 10vh;
+    border: 1px solid black;
+    padding: 7px;
+    font-size: 18px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #F59E0B;
+    bottom: 0;
+    text-align: center;
+}
