@@ -5,7 +5,7 @@
 }
 
 html { 
-    background: url(images/img-two.jpeg) no-repeat center center fixed; 
+    background: linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url(images/608365-h.webp) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,6 +39,8 @@ textarea {
     margin-bottom: 15px;
     padding: 5px;
     font-size: 18px;
+    background-color: transparent;
+    outline: none;
 }
 
 ::-webkit-input-placeholder {
